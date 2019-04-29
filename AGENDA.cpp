@@ -5,7 +5,7 @@
 #include <cstdlib>
 #include "ITENS.h"
 
-//IMPLEMENTAÇAO ZIVIANI
+//IMPLEMENTAÃ‡AO ZIVIANI
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 int Vazia(TipoLista Lista){
     return (Lista.Primeiro == Lista.Ultimo);
@@ -55,7 +55,7 @@ void Imprime(TipoLista Lista){
 }
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 
-void preencher_arqaposdeletarlista(TipoLista Lista){
+void preencher_Atualiza_Arquivo(TipoLista Lista){
     TipoApontador Aux;
     Aux=Lista.Primeiro -> Prox;
     ofstream arq1;
@@ -208,7 +208,7 @@ int main(){
                     getline(cin,item.local);
                     fflush(stdin);
                     Insere(item, &lista);
-                    preencher_arqaposdeletarlista(lista);
+                    preencher_Atualiza_Arquivo(lista);
                     system("pause");
                     system("cls");
 
@@ -226,7 +226,7 @@ int main(){
             case 3:
                 {
                     deleta_compromisso(lista,z);
-                    preencher_arqaposdeletarlista(lista);
+                    preencher_Atualiza_Arquivo(lista);
                     system("pause");
                     system("cls");
 
