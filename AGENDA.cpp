@@ -5,6 +5,14 @@
 #include <cstdlib>
 #include "ITENS.h"
 
+/*
+    Grupo:  
+        Igor de Paiva Dias
+        Lorena Brito Andrade
+        Laura Soares Shakespeare Pereira
+        
+*/
+
 //IMPLEMENTAÇAO ZIVIANI
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 int Vazia(TipoLista Lista){
